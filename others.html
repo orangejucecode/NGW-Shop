@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NGW Others</title>
+</head>
+<body>
+
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <img src="images/your-logo.jpg" alt="NGW Logo" class="logo">
+        <div class="menu" id="menu">
+            <a href="index.html">Home</a>
+            <a href="tee-shirts.html">Tee shirts</a>
+            <a href="funko-pops.html">Funko pops</a>
+            <a href="belt-replica.html">Belt Replica</a>
+            <a href="framed-history.html">Framed history</a>
+            <a href="others.html">Others</a>
+        </div>
+    </header>
+
+    <section class="merchandise">
+        <!-- Content specific to Others -->
+        <article class="item">
+            <img src="images/others1.jpg" alt="Others 1">
+            <h2>NGW Logo Keychain</h2>
+            <p>Collectible NGW logo keychain for fans.</p>
+            <span>$9.99</span>
+        </article>
+
+        <article class="item">
+            <img src="images/others2.jpg" alt="Others 2">
+            <h2>NGW Signed Poster</h2>
+            <p>Signed poster featuring NGW superstars.</p> 
+            <span>$24.99</span>
+        </article>
+        <!-- Add more Others items as needed -->
+
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 NGW Merchandise. All Rights Reserved</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+
+</body>
+</html>

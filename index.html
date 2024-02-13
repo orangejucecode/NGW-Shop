@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NGW Merchandise Showcase</title>
+</head>
+<body>
+
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <img src="images/your-logo.jpg" alt="NGW Logo" class="logo">
+        <div class="menu" id="menu">
+            <a href="index.html">Home</a>
+            <a href="tee-shirts.html">Tee shirts</a>
+            <a href="funko-pops.html">Action Figures</a>
+            <a href="belt-replica.html">Belt Replica</a>
+            <a href="framed-history.html">posters</a>
+            <a href="others.html">Others</a>
+        </div>
+    </header>
+
+    <section class="merchandise">
+        <!-- Content specific to the home page -->
+        <article class="item">
+            <img src="images/items/item1.jpg" alt="Merchandise Item 1">
+            <h2>Max Chase Tee#1</h2>
+            <p>Max Chase Era Tee Shirt #1 Max Chase Era</p>
+            <span>$19.99</span>
+        </article>
+
+        <article class="item">
+            <img src="images/items/item2.jpg" alt="Merchandise Item 2">
+            <h2>Ricky Funko </h2>
+            <p>The Funko Pop of Offial NGW mascot Ricky the Cat</p> 
+            <span>$19.99</span>
+        </article>
+        <article class="item">
+            <img src="images/items/item3.png" alt="Merchandise Item 3">
+            <h2> NGW World Championship Replica </h2>
+            <p>An Exact Replica of NGW World Championship </p> 
+            <span>get at Archonsucks.com</span>
+        </article>
+
+        <!-- Add more items as needed -->
+
+    </section>
+    
+    <h1> For More Tap the Menu </h1>
+    
+    <footer>
+        <p>&copy; 2024 NGW Merchandise. All Rights Reserved</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+
+</body>
+</html>

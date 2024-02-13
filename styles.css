@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('images/header-background.jpg'); /* Replace 'images/header-background.jpg' with your actual header background image */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px; /* Updated height to 50px */
+}
+
+.menu-icon {
+    color: #00FF00; /* Green color */
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 60px; /* Adjust the distance from the header as needed */
+    right: 200px;
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+}
+
+.logo {
+    max-width: 50px; /* Updated max-width to 50px */
+    height: auto;
+    margin: 0 auto; /* Center the logo horizontally */
+}
+
+.merchandise {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.item {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+.h1{color:green;}
+footer {
+    background-image: url('images/footer-background.jpg'); /* Replace 'images/footer-background.jpg' with your actual footer background image */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    position:;
+    bottom: 0;
+    width: 100%;
+}
